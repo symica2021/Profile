@@ -1,0 +1,89 @@
+/* Write your CSS here */
+body {
+  background: rgb(248,248,248);
+  color: green;
+  margin: 0px;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: satisfaire;
+  color: blue;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+.syl{
+	border-radius: 50%;
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+}
+#banner {
+  text-align: center;
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2016/01/06094121/Spring-Landscape-Background1.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#banner img {
+  border: 5px solid white;
+}
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #F18805;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #F18805;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #613F75;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.card {
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
